@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+
+  #title {
+    font-size: 1em;
+    margin: 20px;
+  }
+
+  #description {
+    margin: 10px;
+  }
+
+  .tile {
+    stroke: #fff;
+    stroke-width: 1;
+  }
+
+  #legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .legend-item {
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+  }
+  tspan{
+      font-size: 10px;
+  }
+  .tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  #dataset-links {
+    margin: 20px;
+  }
+
+  #dataset-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007BFF;
+  }
+
+  #dataset-links a:hover {
+    text-decoration: underline;
+  }

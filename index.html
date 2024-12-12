@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tree Map Diagram</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="dataset-links">
+    <a  data-url="https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json">Video Game Data Set</a>
+    <a  data-url="https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json">Movies Data Set</a>
+    <a  data-url="https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json">Kickstarter Data Set</a>
+  </div>
+  <h1 id="title">Tree Map Diagram</h1>
+  <p id="description">A visualization of sales data by category</p>
+  <div id="tooltip" class="tooltip" style="opacity: 0;"></div>
+  <svg id="tree-map" width="1000" height="600"></svg>
+  <div id="legend"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
